@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const APP_ROUTES = [{\n  path: '',\n  redirectTo: 'home',\n  pathMatch: 'full'\n}, {\n  path: 'home',\n  loadChildren: () => import('./shell/shell-routing.module').then(m => m.ProfileRoutingModule)\n}];","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
